@@ -8,9 +8,9 @@ import { db } from './db';
 const BACKGROUND_GEOLOCK = 'BACKGROUND_GEOLOCK';
 
 // Mock Hub Config
-const HUB_LAT = 40.7128;
-const HUB_LNG = -74.0060;
-const RADIUS_METERS = 50;
+export const HUB_LAT = 40.7128;
+export const HUB_LNG = -74.0060;
+export const RADIUS_METERS = 50;
 
 // Haversine formula to calculate distance in meters
 const getDistanceFromMeters = (lat1, lon1, lat2, lon2) => {
